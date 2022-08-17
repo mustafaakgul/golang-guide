@@ -1,0 +1,109 @@
+
+
+Concurrency
+
+    Channels
+        Basit Kanal
+        Buffered Channels
+            https://www.geeksforgeeks.org/buffered-channel-in-golang
+        Close   -> kanal kapatmak için
+        Nil Kanallar
+
+    Select
+
+        Go's select lets you wait on multiple channel operations. 
+		Combining goroutines and channels with select is a powerful feature of Go
+
+        https://go.dev/tour/concurrency/5
+		https://golangbot.com/select/
+
+    mutex
+
+        "A Mutex is a method used as a locking mechanism to ensure that only one Goroutine is accessing the critical section of code at any point of time. 
+		This is done to prevent race conditions from happening. Sync package contains the Mutex. Two methods defined on Mutex. Lock."
+
+		https://golangdocs.com/mutex-in-golang
+		https://www.geeksforgeeks.org/mutex-in-golang-with-examples/
+
+    Worker Pool
+
+        https://gobyexample.com/worker-pools
+		https://itnext.io/explain-to-me-go-concurrency-worker-pool-pattern-like-im-five-e5f1be71e2b0
+		https://medium.com/code-chasm/go-concurrency-pattern-worker-pool-a437117025b1
+
+    Rate Limiting
+
+		https://gobyexample.com/rate-limiting
+		https://www.alexedwards.net/blog/how-to-rate-limit-http-requests
+		https://hustcat.github.io/rate-limit-example-in-go/
+
+    Context
+
+        https://pkg.go.dev/context
+		https://www.ardanlabs.com/blog/2019/09/context-package-semantics-in-go.html
+		http://p.agnihotry.com/post/understanding_the_context_package_in_golang/
+		https://dev.to/gopher/getting-started-with-go-context-l7g
+		https://gobyexample.com/context
+		https://www.sohamkamani.com/golang/context-cancellation-and-values/
+		https://developpaper.com/the-principle-and-practice-of-golang-context/
+
+    testing
+
+        - Go testing package
+        - Open Source Go test packages/libraries
+
+        https://bmuschko.com/blog/go-testing-frameworks/
+        What is BDD in Testing?
+        https://github.com/bmuschko/go-testing-frameworks
+        https://www.toptal.com/go/your-introductory-course-to-testing-with-go
+        https://www.pullrequest.com/blog/unit-testing-in-go/
+        https://building.lang.ai/7-testing-techniques-for-your-golang-codebase-77649a96a1c9
+
+    security
+
+        bcrypt
+
+        - AES encryption of files in Go
+            https://eli.thegreenplace.net/2019/aes-encryption-of-files-in-go/
+        - RSA - theory and implementation
+            https://eli.thegreenplace.net/2019/rsa-theory-and-implementation/
+
+        Introducing CIRCL: An Advanced Cryptographic Library
+            https://blog.cloudflare.com/introducing-circl/
+        https://www.golangprograms.com/cryptography.html
+        Go Encryption and Decryption using AES - Tutorial
+            https://tutorialedge.net/golang/go-encrypt-decrypt-aes-tutorial/
+        Learn Golang encryption and decryption
+            https://blog.logrocket.com/learn-golang-encryption-decryption/
+        9.6 Encrypting and decrypting data
+            https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/09.6.html
+        How to Encrypt and Decrypt Data using Golang and AES
+            https://www.melvinvivas.com/how-to-encrypt-and-decrypt-data-using-aes
+        Common encryption algorithms in Golang
+            https://www.fatalerrors.org/a/common-encryption-algorithms-in-golang.html
+        Advanced Encryption Standard
+            https://www.golangprograms.com/advanced-encryption-standard.html
+        Encrypting Data With SSH Keys and Golang
+            https://earthly.dev/blog/encrypting-data-with-ssh-keys-and-golang/
+        Modern Cryptography using Go
+            https://medium.com/@rafaelescrich/modern-cryptography-using-go-50e85f0f65af
+        Implementing RSA Encryption and Signing in Golang (With Examples)
+            https://www.sohamkamani.com/golang/rsa-encryption/
+        Encrypt data with a password in Go
+            https://bruinsslot.jp/post/golang-crypto/
+        Security and cryptography in GO 
+            https://is.muni.cz/th/juran/bp_digital.pdf
+
+        Videos
+
+            Cryptography in Golang | Example of Cryptography | Golang Tutorial Beginners
+                https://www.youtube.com/watch?v=OXclEtQhNjY&list=UUwT5YbAoWWvqeZEqqhzj0_A&index=43
+            AES Encryption Decryption in GOLANG | AES Golang | Golang Tutorial
+                https://www.youtube.com/watch?v=Q2jsrhDS-JA
+            Password Hashing in Golang| Password Hashing Using bcrypt | Golang Tutorial
+                https://www.youtube.com/watch?v=RFqLm8HLjQU
+
+        Books
+
+            Practical Cryptography with Go
+                https://leanpub.com/gocrypto/read

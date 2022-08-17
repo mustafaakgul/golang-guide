@@ -1,0 +1,39 @@
+
+Resources
+
+    https://refactoring.guru/design-patterns/go
+
+Design Pattern Categories
+
+        Creational
+
+            Abstract Factory
+            Builder
+            Factory
+            Lazy Initialization
+            Multiton
+            Object Pool
+            Prototype
+            Singleton
+
+        Structural
+
+            Adapter
+            Bridge
+            Composite
+            Decorator
+            Facade
+            Flyweight
+            Proxy
+
+        Behavioral
+
+            Chain of Responsibility
+            Command
+            Interpreter
+            Iterator
+            Mediator
+            Memento
+            Observer
+            Strategy
+            Visitor
