@@ -1,4 +1,4 @@
-module btktraining
+module golangguide
 
 //module 2-Variables
 
